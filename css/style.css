@@ -1,0 +1,217 @@
+
+.myNav {
+    background-color: rgb(46, 46, 212);
+    height: auto;
+}
+
+.text {
+    font-size: 15px;
+    color: white;
+    direction: rtl;
+}
+
+.dir{
+    direction: rtl;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    color: lightgray;
+    font-size: 3rem;
+}
+
+.profile:hover {
+    color: goldenrod;
+    transform: scale(1.3);
+}
+
+.logo {
+    width: 50px;
+    height: 70px;
+}
+
+.btn-background {
+    color: rgb(46, 46, 212);
+}
+
+.main {
+    background-color: rgb(243, 236, 236);
+}
+
+.nav1 {
+    border-radius: 20px;
+    direction: rtl;
+}
+
+.text1 {
+    color: rgb(6, 148, 204);
+}
+
+.navbar {
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav2 {
+    background-color: rgb(221, 214, 214);
+}
+
+.input {
+    background-color: rgb(221, 214, 214);
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 18em;
+}
+
+.button {
+    color: grey;
+    background-color: rgb(221, 214, 214);
+    border: none;
+    margin-right: 260px;
+    margin-top: -27px;
+}
+
+.button:hover {
+    color: rgb(39, 126, 167);
+    animation: search 2s;
+}
+
+@keyframes search {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.4) translateX(5%);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.box{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 25px;
+    /* width: 13.7vw;
+    height: 140px; */
+    
+}
+
+.box-inner{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+.heart:hover{
+    color: gold!important;
+}
+
+.box-align{
+    text-align: center;
+}
+
+.icons{
+    font-size: 4rem!important;
+}
+
+.icons:hover{
+    color: rgb(19, 45, 78)!important;
+    animation: search 2s;
+}
+
+.box-text{
+    font-size: 12px;
+}
+
+.head-bt:hover{
+    width: 50px;
+}
+
+.head-bt1:hover{
+    width: 120px;
+}
+
+.sidebar{
+    box-shadow: -2px -1px 10px rgb(180, 179, 179);
+    height: 110vh;
+}
+
+.side-text{
+    font-size: .5rem;
+}
+
+.icons-sid{
+    font-size: 2.5vw!important;
+    color: grey;
+}
+
+.sideBtns{
+    font-size: .4vw;
+}
+
+.sideBtns:hover{
+    background-color: rgb(221, 214, 214);
+    color: black;
+    animation: search 2s;    
+}
+
+.box-gray{
+    background-color: rgb(221, 214, 214);
+}
+
+.act{
+    background-color: rgb(221, 214, 214);
+    border: none;
+}
+
+.card{
+    background-color: rgb(221, 214, 214);
+    border: none;
+    border-radius: 25px;
+    width: 29vw;
+    height: auto;
+}
+.card-btn{
+    background-color: rgb(46, 46, 212);
+    font-size: 9px;
+    width: 6rem;
+    color: white;
+}
+
+.icon-card{
+    font-size: 1.8rem!important;
+}
+
+@media (max-width:575.98px){
+    .main{
+        box-shadow: 2px -1px 10px rgb(180, 179, 179);
+    }
+    
+}
+@media (max-width:767.98px){
+    .sidebar{
+        box-shadow: 2px -1px 10px rgb(180, 179, 179);
+        height: auto;
+        /* padding-top: 20px; */
+    }
+    .side-btn{
+        margin-top: 0px!important;
+    }
+    .side-btn1{
+        padding-top: 30px!important;
+    }
+    .display{
+        display: block;
+    }
+
+}
+
