@@ -7,7 +7,10 @@
 
 *{
     font-family: 'BTraffic';
+    
 }
+
+/* navbar */
 
 .myNav {
     background-image: linear-gradient(to bottom, rgb(86, 18, 150), rgb(101, 32, 133));
@@ -28,9 +31,6 @@
     padding-bottom: 0!important;
 }
 
-.dir{
-    direction: rtl;
-}
 
 .text2{
     font-family: 'Koodak Bold';
@@ -62,19 +62,77 @@
     width: 3.5vh;
     height: 8vh;
 }
+/* end navbar */
 
-.main {
-    background-color: rgb(241, 241, 241);
-    margin-right: -22px!important;
-    
+/* sidebar */
+.sidebar1{
+    width: 10%;
+    }    
+
+.sidebar{
+    box-shadow: -2px 0 20px rgb(180, 179, 179);
+    padding-top: 20%;
+    height: 100%;
+    text-align: center;
 }
+
+.side-text{
+    font-size: 1.2vw;;
+    color: rgb(180, 179, 179);
+    text-align: center;
+    margin-top: -10px!important;
+}
+
+
+.sideimg{
+    width: 3vw;
+    height: 3.5vw;
+    margin-bottom: 2px;
+
+}
+
+.side-btn1{
+background-color: rgb(230, 228, 228);
+width: 90%;
+padding-bottom: 0;
+padding-top: 0;
+border-radius: 20px;
+margin-bottom: 8px;
+}
+
+.sideBtns:hover{
+    background-color: rgb(221, 214, 214);
+    color: black;
+    animation: search 2s;    
+}
+
+.side-btn{
+    display: none;
+}
+
+
+/* end sidebar */
+
+.main{
+    background-color: rgb(241, 241, 241);
+    margin-right: -20px!important;   
+}
+
+.dir{
+    direction: rtl;
+}
+
+.dir1{
+    direction: ltr;
+}
+
 
 .input {
     background-color: rgb(230, 228, 228);
     border: 1px solid rgb(190, 189, 189);
     border-radius: 8px;
-    width: 30vh;
-    height: 5vh;
+    width: 18vh;
+    height: 3vh;
 }
 
 .margin{
@@ -168,10 +226,15 @@ li{
 }
 
 .display{
-    width: 4.5vh;
-    height: 6vh;
+    width: 3vw;
+    height: 4vw;
     margin-top: -1.5vh;
 }
+
+.display1{
+    width: 3.5vw;
+    height: 4vw;
+}    
 
 .heart{
     padding-top: 5%;
@@ -244,50 +307,6 @@ li{
     color: white;    
 }
 
-.sidebar1{
-    width: 10%;
-    }    
-
-.sidebar{
-    box-shadow: -2px -1px 10px rgb(180, 179, 179);
-    height: 100vh;
-    padding-top: 20%;
-    text-align: center;
-}
-
-.side-text{
-    font-size: 80%;
-    color: rgb(180, 179, 179);
-    text-align: center;
-    margin-top: -10px!important;
-}
-
-
-.sideimg{
-    width: 5vh;
-    height: 5vh;
-    margin-bottom: 2px;
-
-}
-
-.side-btn1{
-background-color: rgb(230, 228, 228);
-width: 90%;
-padding-bottom: 0;
-padding-top: 0;
-border-radius: 20px;
-margin-bottom: 8px;
-}
-
-.sideBtns:hover{
-    background-color: rgb(221, 214, 214);
-    color: black;
-    animation: search 2s;    
-}
-
-.side-btn{
-    display: none;
-}
 
 
 .mybtn-1{
@@ -336,12 +355,12 @@ margin-bottom: 8px;
     }
 
     .head-bt{
-        width: 8vh;
-        height: 12vh;
+        width: 6vh;
+        height: 10vh;
     }
     .head-bt1{
-        width: 9vh;
-        height: 12vh;
+        width: 7vh;
+        height: 8vh;
     }
 
     
@@ -371,7 +390,7 @@ margin-bottom: 8px;
     }
 
     .sidebar1{
-        width: 100%!important;
+        width: 100%;
     }
 
     .sidebar{
@@ -379,6 +398,7 @@ margin-bottom: 8px;
         height: auto!important;
         padding-top: 1%!important;        
     }
+
 
     .side-btn{
         display: inline-block;
@@ -405,10 +425,24 @@ margin-bottom: 8px;
     .box-text{
         width: 100%!important;
     }
+    .sideimg{
+        width: 70%;
+        height: 70%;
+    }
 
     .heart{
         padding-bottom: 20px;
     }
+    .display{
+        width: 6vw;
+        height: 7vw;
+        margin-top: -1.5vh;
+    }
+    
+    .display1{
+        width: 6vw;
+        height: 7vw;
+    }    
 }
 
 .show{
@@ -424,6 +458,17 @@ margin-bottom: 8px;
     .nav1{
         margin-right: 6%!important;
     }
+    .display{
+        width: 7vw;
+        height: 8vw;
+        margin-top: -1.5vh;
+    }
+    
+    .display1{
+        width: 7vw;
+        height: 8vw;
+    }    
+    
 }
 
 
