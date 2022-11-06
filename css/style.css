@@ -106,7 +106,6 @@
 .nav1 {
     border-radius: 10px;
     direction: rtl;
-    height: 8vh;
     margin-left: .4%!important;
     margin-right: .2%!important;
 }
@@ -145,13 +144,12 @@ li{
     border: 1px solid rgb(190, 189, 189);
     border-radius: 25px;
     width: calc(calc(100% / 6) - 16px)!important;
-    height: 24vh;
     
 }
 
 .text0 {
     color: rgb(6, 148, 204);
-    font-size: 2.2vh!important;
+    font-size: .8rem!important;
 }
 
 .box-inner{
@@ -159,7 +157,7 @@ li{
     border: 1px solid grey;
     border-radius: 15px;
     width: calc(calc(100% / 2) - 10px)!important;
-    height: 10vh;
+    height: 7vw;
     padding-bottom: .5vh;
     margin-left: 1.8%;
     margin-right: .5%;
@@ -286,7 +284,7 @@ margin-bottom: 8px;
     animation: search 2s;    
 }
 
-.side-collaps{
+.side-btn{
     display: none;
 }
 
@@ -294,11 +292,28 @@ margin-bottom: 8px;
     display: inline-block;
 }
 
+@media (max-width:830.98px){
+    .nav-icon1{
+        direction: rtl;
+        float: right!important;
+    }
+
+    .box-inner{
+        width: 90%!important;
+        height: 50%;
+    }
+
+    .inner-row{
+        margin-bottom: 8%;
+    }
+
+}
+
+
 @media (max-width:767.98px){
     .sidebar{
         box-shadow: 2px -1px 10px rgb(180, 179, 179);
         height: auto;
-        /* padding-top: 20px; */
     }
     .side-btn{
         margin-top: 0px!important;
@@ -325,31 +340,50 @@ margin-bottom: 8px;
         height: 12vh;
     }
 
-    .sidebar{
-        display: none;
-        width: 100%;
-    }
-
+    
     .page{
         width: 100%;
     }
 
-    .side-collaps{
+    .row1{
+        margin-right: 3%!important;
+    }
+
+    .row2{
+        margin-right: 3%!important;
+    }
+
+    .side-btn{
         display: inline-block;
     }
 
+    
+    .inner{
+        float: right;
+        direction: rtl;
+    }
+.sidebar{
+        display: none; 
+        width: 100%;
+    }
 
+    .box-text{
+        width: 100%!important;
+    }
 
-
+    .heart{
+        padding-bottom: 20px;
+    }
 }
 
 @media (max-width:575.98px){
     .main{
         box-shadow: 2px -1px 10px rgb(180, 179, 179);
     }
-    
-    
 }
+
+
+
 @media (max-width:399.98px){
     .box{
         width: calc(calc(100% / 2) - 20px)!important;
@@ -362,6 +396,9 @@ margin-bottom: 8px;
         height: 16vh;
         margin-left: 1.5%!important;
         margin-right: .5!important;
+    }
+    .sm-tx{
+        margin-bottom: 0!important;
     }
 
 }
