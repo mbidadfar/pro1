@@ -15,7 +15,7 @@
 }
 
 .btn1{
-    width: .5vh;
+    width: 2vw!important;
 }
 
 .text {
@@ -24,7 +24,9 @@
     direction: rtl;
 }
 
-
+.mb0{
+    padding-bottom: 0!important;
+}
 
 .dir{
     direction: rtl;
@@ -201,21 +203,14 @@ li{
     height: 8.5vw;
 }
 
-.head-bt1{
-    width: 5vw!important;
-}
 
 .box-6{
     background-color: rgb(230, 228, 228);
 }
 
-.mtt{
-    margin-top: 0;
-}
-
 .head-bt1{
-    width: 4.5vw;
-    height: 5.5VW;
+    width: 6vw;
+    height: 7.5VW;
     background-color: rgb(230, 228, 228);
 }
 
