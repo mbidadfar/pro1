@@ -197,8 +197,12 @@ li{
 }
 
 .head-bt{
-    width: 10vh;
-    height: 12vh;
+    width: 7.5vw;
+    height: 8.5vw;
+}
+
+.head-bt1{
+    width: 5vw!important;
 }
 
 .box-6{
@@ -210,8 +214,8 @@ li{
 }
 
 .head-bt1{
-    width: 8vh;
-    height: 11vh;
+    width: 4.5vw;
+    height: 5.5VW;
     background-color: rgb(230, 228, 228);
 }
 
@@ -295,6 +299,14 @@ margin-bottom: 8px;
 .mybtn-1{
     background-color: white;
     border: none;
+}
+.mybtn-2{
+    background-color: rgb(230, 228, 228);
+    border: none;
+}
+
+.svg{
+    margin-bottom: -45!important;
 }
 
 /* modal1 */
