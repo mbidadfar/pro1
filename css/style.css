@@ -55,6 +55,7 @@
 .profile:hover {
     color: goldenrod;
     transform: scale(1.3);
+    cursor: pointer;
 }
 
 .logo {
@@ -239,7 +240,7 @@ li{
 }
 
 .card-btn:hover{
-    background-color: rgb(57, 57, 168);
+    background-color: rgb(7, 7, 85);
     color: white;    
 }
 
@@ -255,7 +256,8 @@ li{
 }
 
 .side-text{
-    font-size: 2vh;
+    font-size: 80%;
+    color: rgb(180, 179, 179);
     text-align: center;
     margin-top: -10px!important;
 }
@@ -287,9 +289,6 @@ margin-bottom: 8px;
     display: none;
 }
 
-.show{
-    display: inline-block;
-}
 
 .mybtn-1{
     background-color: white;
@@ -304,6 +303,9 @@ margin-bottom: 8px;
     margin-bottom: -45!important;
 }
 
+.side-btn{
+    border: none;
+}
 
 @media (max-width:830.98px){
     .nav-icon1{
@@ -324,18 +326,7 @@ margin-bottom: 8px;
 
 
 @media (max-width:767.98px){
-    .sidebar{
-        box-shadow: 2px -1px 10px rgb(180, 179, 179);
-        height: auto;
-    }
-    .side-btn{
-        margin-top: 0px!important;
-    }
-    .side-btn1{
-        padding-top: 30px!important;
-    }
     
-
     .nav1{
         margin-right: 2%!important;
     }
@@ -366,10 +357,6 @@ margin-bottom: 8px;
         margin-right: 3%!important;
     }
 
-    .side-btn{
-        display: inline-block;
-    }
-
     .nav1{
         margin-right: 4%!important;
     }
@@ -381,8 +368,39 @@ margin-bottom: 8px;
 
     .sidebar{
         display: none; 
-        width: 100%;
     }
+
+    .sidebar1{
+        width: 100%!important;
+    }
+
+    .sidebar{
+        width: 100%;
+        height: auto!important;
+        padding-top: 1%!important;        
+    }
+
+    .side-btn{
+        display: inline-block;
+    }
+
+    .side-btn1{
+        background-color: rgb(230, 228, 228);
+        width: 14%;
+        padding-bottom: 0;
+        padding-top: 0;
+        border-radius: 20px;
+        margin-bottom: 8px;
+        }
+
+        
+    .sideBtns{
+        display: inline;
+    }
+    .exit-bt{
+        margin-top: 2%;
+    }
+
 
     .box-text{
         width: 100%!important;
@@ -392,6 +410,11 @@ margin-bottom: 8px;
         padding-bottom: 20px;
     }
 }
+
+.show{
+    display: inline-block;
+}
+
 
 @media (max-width:575.98px){
     .main{
