@@ -363,15 +363,15 @@ margin-bottom: 8px;
     width: 80%; 
   }
   
-  .close {
+  .close1 {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
   }
   
-  .close:hover,
-  .close:focus {
+  .close1:hover,
+  .close1:focus {
     color: black;
     text-decoration: none;
     cursor: pointer!important;
@@ -498,7 +498,7 @@ margin-bottom: 8px;
     }
 
     .exit-bt{
-        margin-top: 2%;
+        margin-top: 8px;
         width: 5vh;
         height: 5vh;
     }
@@ -524,8 +524,8 @@ margin-bottom: 8px;
     }
 
     .box-inner{
-        width: 90%!important;
-        height: 50%;
+        width: 100%!important;
+        height: 12vh;
     }
 
     .inner-row{

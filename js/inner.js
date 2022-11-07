@@ -15,18 +15,18 @@ var modal1 = document.getElementById("myModal1");
 
 var btn1 = document.getElementById("modal-1");
 
-var span = document.getElementsByClassName("close")[0];
+var span1 = document.getElementsByClassName("close1")[0];
 
 btn1.onclick = function() {
   modal1.style.display = "block";
 }
 
-span.onclick = function() {
+span1.onclick = function() {
   modal1.style.display = "none";
 }
 
 window.onclick = function(event) {
-  if (event.target1 == modal1) {
+  if (event.target == modal1) {
     modal1.style.display = "none";
   }
 } 
