@@ -74,7 +74,6 @@ li{
     }    
 
 .sidebar{
-    box-shadow: -2px 0 20px rgb(180, 179, 179);
     padding-top: 20%;
     height: 100%;
     text-align: center;
@@ -119,6 +118,7 @@ margin-bottom: 8px;
 
 .main{
     background-color: rgb(241, 241, 241);
+    box-shadow: -2px 0 10px rgb(180, 179, 179) inset;
     margin-right: -20px!important;   
 }
 
@@ -210,17 +210,42 @@ margin-bottom: 8px;
     font-size: .8rem!important;
 }
 
+.card{
+    background-color: rgb(230, 228, 228);
+    border: none;
+    border-radius: 10px;
+    width: calc(calc(100% / 3) - 4px)!important;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 3px!important;
+    padding-right: 3px!important;
+}
+
+
+.inner-row{
+    width: 100%;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    margin-bottom: 5px!important;
+}
+
 .box-inner{
     background-color: white;
-    border: 1px solid grey;
+    border: 1px solid rgb(197, 196, 196);
     border-radius: 15px;
-    width: calc(calc(100% / 2) - 2.2vw)!important;
-    height: 8vw;
-    padding-bottom: .5vw;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    margin-bottom: 1vw;
+    width: calc(calc(100% / 2) - 5px)!important;
+    height: 7vw;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    
 }
+
+.heart{
+    color: rgb(190, 189, 189);
+}
+
 
 .display{
     width: 3vw;
@@ -233,10 +258,6 @@ margin-bottom: 8px;
     height: 4vw;
 }    
 
-.heart{
-    padding-top: 5%;
-    color: rgb(190, 189, 189);
-}
 
 .heart:hover{
     color: gold!important;
@@ -283,14 +304,6 @@ margin-bottom: 8px;
     background-color: rgb(221, 214, 214);
     border: none;
 }
-
-.card{
-    background-color: rgb(230, 228, 228);
-    border: none;
-    border-radius: 25px;
-    width: calc(calc(100% / 3) - 10px)!important;
-}
-
 
 .card-btn{
     background-color: rgb(29, 29, 175);
@@ -363,8 +376,6 @@ margin-bottom: 8px;
     text-decoration: none;
     cursor: pointer!important;
   } 
-
-  
 
   /* end modal1 */
 
