@@ -50,7 +50,7 @@
 
 
 
-    <div class="row dir">
+    <div class="row  dir">
         <div class="sidebar1">
             <div id="side" class="sidebar col">
 
@@ -74,12 +74,13 @@
                 <button class="btn sideBtns">
                     <img class="sideimg" src="image/22.png">
                 </button>
+                <div>
+                    <button class="btn exit-bt sideBtns">
+                        <img class="sideimg" src="image/23.png">
 
-                <button class="btn exit-bt sideBtns">
-                    <img class="sideimg" src="image/23.png">
-                    
-                </button>
-                <p class="side-text">خروج</p>
+                    </button>
+                    <p class="side-text">خروج</p>
+                </div>
 
 
             </div>
@@ -91,6 +92,7 @@
                 <nav class="navbar nav1 p-0 nav2">
                     <div class="container-fluid">
                         <p class="text1 px-3 pt-3">
+                            
                             <button class="side-btn" onclick="showSide()">
                                 <i class="fa fa-align-justify"></i>
                             </button>
@@ -112,23 +114,34 @@
                     <div class="box mx-2">
                         <i class="fa fa-heart p-1 heart"></i>
                         <div class="box-align">
-                            <svg class="svg" width="60" hight="100">
-                                <path d="M10 10 L60 10 L60 75 L50 90 L10 90 Z " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                <path d="M50 90 L50 75 L60 75 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                <path d="M14 69 L56 69 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                <path d="M14 76 L45 76 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                <path d="M18 61 L52 61 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                <path d="M22 19 L49 19 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                <path d="M14 25 L30 25 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                <path d="M34 25 L52 25 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                <!-- CAR -->
-                                <path d="M22 50 L17 50 L17 40 L24 32 L38 32 L45 40 L50 40 S50 40 54 44 L54 50 L49 50 " style="fill:none; stroke-width:2.5; stroke:rgb(214, 149, 10); "></path>
-                                <circle cx="26" cy="50" r="4" stroke="rgb(214, 149, 10)" stroke-width="2" fill="none" />
-                                <circle cx="45" cy="50" r="4" stroke="rgb(214, 149, 10)" stroke-width="2" fill="none" />
-                                <path d="M30 50 L41 50 " style="fill:none; stroke-width:2.5; stroke:rgb(214, 149, 10) "></path>
-                                <path d="M24 32 L26 40 L45 40 " style="fill:none; stroke-width:2.5; stroke:rgb(214, 149, 10) "></path>
+                            <button id="modal-1" class="mod">
+                                <svg class="svg" width="60" hight="100">
+                                    <path d="M10 10 L60 10 L60 75 L50 90 L10 90 Z " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                    <path d="M50 90 L50 75 L60 75 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                    <path d="M14 69 L56 69 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                    <path d="M14 76 L45 76 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                    <path d="M18 61 L52 61 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                    <path d="M22 19 L49 19 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                    <path d="M14 25 L30 25 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                    <path d="M34 25 L52 25 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                    <!-- CAR -->
+                                    <path d="M22 50 L17 50 L17 40 L24 32 L38 32 L45 40 L50 40 S50 40 54 44 L54 50 L49 50 " style="fill:none; stroke-width:2.5; stroke:rgb(214, 149, 10); "></path>
+                                    <circle cx="26" cy="50" r="4" stroke="rgb(214, 149, 10)" stroke-width="2" fill="none" />
+                                    <circle cx="45" cy="50" r="4" stroke="rgb(214, 149, 10)" stroke-width="2" fill="none" />
+                                    <path d="M30 50 L41 50 " style="fill:none; stroke-width:2.5; stroke:rgb(214, 149, 10) "></path>
+                                    <path d="M24 32 L26 40 L45 40 " style="fill:none; stroke-width:2.5; stroke:rgb(214, 149, 10) "></path>
 
-                            </svg>
+                                </svg>
+                            </button>
+                            <div id="myModal1" class="modal1">
+
+                                <div class="modal1-content">
+                                    <span class="close">&times;</span>
+                                    <p>modal1</p>
+                                </div>
+
+                            </div>
+
                             <p class="box-text text-secondary">واگذاری خودرو</p>
 
                         </div>
@@ -136,8 +149,13 @@
                     <div class="box mx-2">
                         <i class="fa fa-heart  p-1 heart"></i>
                         <div class="box-align">
-                            <img class="head-bt" src="image/25.png">
-
+                                <button id="modal-2" class="mod"> <img class="head-bt" src="image/25.png"></button>                                
+                                <div id="myModal2" class="modal2">
+                                  <div class="modal2-content">
+                                    <span class="close2">&times;</span>
+                                    <p>modal 2</p>
+                                  </div>
+                                </div>
                             <p class="box-text text-secondary mt-2">فیش حقوقی ایثارگران </p>
 
                         </div>
