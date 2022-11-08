@@ -80,7 +80,7 @@ li{
 }
 
 .side-text{
-    font-size: 1.2vw;;
+    font-size: 1.3vw;;
     color: rgb(180, 179, 179);
     text-align: center;
     margin-top: -10px!important;
@@ -88,9 +88,9 @@ li{
 
 
 .sideimg{
-    width: 3vw;
-    height: 3.5vw;
-    margin-bottom: 2px;
+    width: 25px;
+    height: 30px;
+    margin-bottom: 4px;
 
 }
 
@@ -248,16 +248,10 @@ margin-bottom: 8px;
 
 
 .display{
-    width: 3vw;
-    height: 4vw;
+    width: 1.8rem;
+    height: 1.8rem;
     margin-top: -1.5vh;
 }
-
-.display1{
-    width: 3.5vw;
-    height: 4vw;
-}    
-
 
 .heart:hover{
     color: gold!important;
@@ -277,22 +271,28 @@ margin-bottom: 8px;
 }
 
 .box-text{
-    font-size: 12px;
+    font-size: 11px;
 }
 
+.head-text{
+    font-size: 12px;  
+    padding-bottom: 0px!important;  
+    margin-bottom: 0px!important;  
+}
+
+.svg{
+    margin-bottom: -53!important;
+}
 .head-bt{
     width: 7.5vw;
     height: 8.5vw;
 }
 
-
-.box-6{
+.head-bt1{
     background-color: rgb(230, 228, 228);
 }
 
-.head-bt1{
-    width: 6vw;
-    height: 7.5VW;
+.box-6{
     background-color: rgb(230, 228, 228);
 }
 
@@ -326,10 +326,6 @@ margin-bottom: 8px;
 .mybtn-2{
     background-color: rgb(230, 228, 228);
     border: none;
-}
-
-.svg{
-    margin-bottom: -45!important;
 }
 
 .side-btn{
@@ -433,11 +429,6 @@ margin-bottom: 8px;
         width: 6vh;
         height: 10vh;
     }
-    .head-bt1{
-        width: 7vh;
-        height: 8vh;
-    }
-
     
     .page{
         width: 100%;
@@ -508,15 +499,10 @@ margin-bottom: 8px;
         padding-bottom: 20px;
     }
     .display{
-        width: 6vw;
-        height: 7vw;
+        width: 2.5rem;
+        height: 2.5rem;
         margin-top: -1.5vh;
-    }
-    
-    .display1{
-        width: 6vw;
-        height: 7vw;
-    }   
+    } 
     
     .nav-icon1{
         direction: rtl;
@@ -552,11 +538,6 @@ margin-bottom: 8px;
         height: 8vw;
         margin-top: -1.5vh;
     }
-    
-    .display1{
-        width: 7vw;
-        height: 8vw;
-    }    
     
 }
 
