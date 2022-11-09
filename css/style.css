@@ -6,7 +6,7 @@
 
 *{
     font-family: ' IRANSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;';
-    overflow-x: hidden;   
+    box-sizing: border-box;   
 }
 
 li{
@@ -97,10 +97,10 @@ a{
 }
 
 .side-text{
-    font-size: 1.3vw;;
+    font-size: 1em;;
     color: rgb(180, 179, 179);
     text-align: center;
-    margin-top: -10px!important;
+    margin-top: -15px!important;
 }
 
 .side-item{
@@ -126,8 +126,7 @@ a{
 
 .side-item1{
     background-color: rgb(230, 230, 230);
-    width: 4em;
-    height: 2.5em;
+   
     align-items: center;
     border-radius: 20px;
 }
@@ -155,8 +154,6 @@ a{
     background-color: rgb(230, 228, 228);
     border: 1px solid rgb(190, 189, 189);
     border-radius: 8px;
-    width: 20v;
-    height: 4vh;
 }
 
 .input-nav{
@@ -204,6 +201,9 @@ a{
     justify-content: center;
 }
 
+.services{
+    
+}
 
 .box-align{
     text-align: center;
@@ -231,7 +231,11 @@ a{
 }
 
 .mod-input{
-    width: 80%!important;
+    width: 50%!important;
+}
+
+.input-btn1{
+    width: 50%!important;
 }
 
 .btn-inp:hover{
@@ -305,7 +309,7 @@ a{
     background-color: white;
     border: 1px solid rgb(197, 196, 196);
     border-radius: 15px;
-    width: 8.5em!important;
+    width: 100%!important;
     height: 4.6em;
     margin-left: 2.5px;
     margin-right: 2.5px;
@@ -349,7 +353,8 @@ a{
 }
 
 .svg{
-    margin-bottom: -53!important;
+    width: 5em;
+    height: 6em
 }
 
 .act{
@@ -661,12 +666,11 @@ a{
     
 }
 
-/* @media (max-width:489.98px){
-    .side-item{
-        display: grid!important;
-        grid-template-columns: auto auto auto;
+ @media (max-width:489.98px){
+    .form-group{
+        padding-right: 2em!important;
     }
-} */
+}
 
 @media (max-width:360.98px){
     .box{
@@ -688,9 +692,7 @@ a{
         display: none!important;
     }
 
-    .form-group{
-        padding-right: 2em!important;
-    }
+    
 }
 
 @media (max-width:298.98px){
