@@ -30,7 +30,6 @@ a{
 .myNav {
     background-image: linear-gradient(to bottom, rgb(86, 18, 150), rgb(101, 32, 133));
     height: 3.4em;
-    
 }
 
 .btn1{
@@ -201,8 +200,8 @@ a{
     justify-content: center;
 }
 
-.services{
-    
+.countainer{
+    max-width: 1500px!important;
 }
 
 .box-align{
@@ -367,8 +366,6 @@ a{
     color: white;    
 }
 
-
-
 .mybtn-1{
     background-color: white;
     border: none;
@@ -415,7 +412,7 @@ a{
   
   .close1 {
     color: #aaa;
-    float: right;
+    float: left;
     font-size: 28px;
     font-weight: bold;
   }
@@ -454,7 +451,7 @@ a{
   
   .close2 {
     color: #aaa;
-    float: right;
+    float: left;
     font-size: 28px;
     font-weight: bold;
   }
@@ -642,7 +639,7 @@ a{
     }
 
     .box{
-        width: calc(calc(100% / 2) - 60px)!important;
+        width: calc(calc(100% / 2) - 20px)!important;
         height: 9em;
         margin-top: 1%;
     }
@@ -674,7 +671,7 @@ a{
 
 @media (max-width:360.98px){
     .box{
-        width: calc(100% - 60px)!important;
+        width: calc(100% - 20px)!important;
         margin-top: 1em;
         margin-right: 1em;
         

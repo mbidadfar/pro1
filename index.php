@@ -10,13 +10,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <title>isaar</title>
 </head>
 
 <body>
     <div class="sticky-top myNav dir navbar pt-2 px-2 row">
-        <nav class="nav-icon container">
+    <nav class="nav-icon container">
             <div class="d-flex logo1 dir align-items-center px-3">
 
                 <button class="side-collapse">
@@ -133,99 +132,99 @@
                 </nav>
 
                 <div class="row row1 my-3">
-                    <div class="box">
-                        <i class="fa fa-heart p-1 heart"></i>
-                        <div class="box-align">
-                            <button id="modal-1" class="mod">
-                                <svg class="svg">
-                                    <path d="M10 5 L60 5 L60 70 L50 85 L10 85 Z " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                    <path d="M50 85 L50 70 L60 70 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                    <path d="M14 64 L56 64 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                    <path d="M14 71 L45 71 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                    <path d="M18 56 L52 56 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                    <path d="M22 14 L49 14 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                    <path d="M14 20 L30 20 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                    <path d="M34 20 L52 20 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
-                                    <!-- CAR -->
-                                    <path d="M22 45 L17 45 L17 35 L24 27 L38 27 L45 35 L50 35 S50 35 54 39 L54 45 L49 45" style="fill:none; stroke-width:2.5; stroke:rgb(214, 149, 10); "></path>
-                                    <circle cx="26" cy="45" r="4" stroke="rgb(214, 149, 10)" stroke-width="2" fill="none" />
-                                    <circle cx="45" cy="45" r="4" stroke="rgb(214, 149, 10)" stroke-width="2" fill="none" />
-                                    <path d="M30 45 L41 45 " style="fill:none; stroke-width:2.5; stroke:rgb(214, 149, 10) "></path>
-                                    <path d="M24 27 L26 35 L45 35 " style="fill:none; stroke-width:2.5; stroke:rgb(214, 149, 10) "></path>
+                    <div class="countainer row">
+                        <div class="box">
+                            <i class="fa fa-heart p-1 heart"></i>
+                            <div class="box-align">
+                                <button id="modal-1" class="mod">
+                                    <svg class="svg">
+                                        <path d="M10 5 L60 5 L60 70 L50 85 L10 85 Z " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                        <path d="M50 85 L50 70 L60 70 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                        <path d="M14 64 L56 64 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                        <path d="M14 71 L45 71 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                        <path d="M18 56 L52 56 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                        <path d="M22 14 L49 14 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                        <path d="M14 20 L30 20 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                        <path d="M34 20 L52 20 " style="fill:none; stroke-width:2.5; stroke:rgb(12, 11, 116); "></path>
+                                        <!-- CAR -->
+                                        <path d="M22 45 L17 45 L17 35 L24 27 L38 27 L45 35 L50 35 S50 35 54 39 L54 45 L49 45" style="fill:none; stroke-width:2.5; stroke:rgb(214, 149, 10); "></path>
+                                        <circle cx="26" cy="45" r="4" stroke="rgb(214, 149, 10)" stroke-width="2" fill="none" />
+                                        <circle cx="45" cy="45" r="4" stroke="rgb(214, 149, 10)" stroke-width="2" fill="none" />
+                                        <path d="M30 45 L41 45 " style="fill:none; stroke-width:2.5; stroke:rgb(214, 149, 10) "></path>
+                                        <path d="M24 27 L26 35 L45 35 " style="fill:none; stroke-width:2.5; stroke:rgb(214, 149, 10) "></path>
 
-                                </svg>
-                            </button>
-                            <div id="myModal1" class="modal1">
+                                    </svg>
+                                </button>
+                                <div id="myModal1" class="modal1">
 
-                                <div class="modal1-content">
-                                    <span class="close1">&times;</span>
-                                    <label for="name">Enter your name</label>
-                                    <form action="input.php" method="get">
-                                        <input type="text" class="mod-input" placeholder="search..." name="input-1">
-                                        <button class="input-btn1" name="button-1" type="submit">send
-
-                                        </button>
-                                    </form>
+                                    <div class="modal1-content">
+                                        <span class="close1">&times;</span>
+                                        <label for="name">Enter your name</label>
+                                        <br>
+                                        <input type="text" class="mod-input" placeholder="search..." name="input-1" value="my-input">
+                                        <button class="btn input-btn1" name="button-1" type="submit">send</button>
+                                    </div>
                                 </div>
+
+                                <p class="head-text text-secondary">واگذاری خودرو</p>
+
                             </div>
-
-                            <p class="head-text text-secondary">واگذاری خودرو</p>
-
                         </div>
-                    </div>
-                    <div class="box">
-                        <i class="fa fa-heart  p-1 heart"></i>
-                        <div class="box-align">
-                            <button id="modal-2" class="mod">
-                                <img class="head-bt" src="image/Group-143.png">
-                            </button>
-                            <div id="myModal2" class="modal2">
-                                <div class="modal2-content">
-                                    <span class="close2">&times;</span>
-                                    <label for="name">Enter your address</label>
-                                    <form action="input.php" method="get">
-                                        <input type="text" class="mod-input" placeholder="search..." name="input-1">
-                                        <button class="input-btn1" name="button-1" type="submit">send
-                                        </button>
-                                    </form>
+                        <div class="box">
+                            <i class="fa fa-heart  p-1 heart"></i>
+                            <div class="box-align">
+                                <button id="modal-2" class="mod">
+                                    <img class="head-bt" src="image/Group-143.png">
+                                </button>
+                                <div id="myModal2" class="modal2">
+                                    <div class="modal2-content">
+                                        <span class="close2">&times;</span>
+                                        <div>
+                                            <label for="name">Enter your address</label>
+                                            <br>
+                                            <input type="text" class="mod-input" placeholder="search..." name="input-1">
+                                            <button class="btn input-btn1" name="button-1" type="submit">send</button>
+
+                                        </div>
+                                    </div>
                                 </div>
+                                <p class="head-text text-secondary mt-2">فیش حقوقی ایثارگران </p>
+
                             </div>
-                            <p class="head-text text-secondary mt-2">فیش حقوقی ایثارگران </p>
-
                         </div>
-                    </div>
-                    <div class="box">
-                        <i class="fa fa-heart p-1 heart"></i>
-                        <div class="box-align">
-                            <img class="head-bt" src="image/users3.png">
-                            <p class="head-text text-secondary mt-2">سامانه دیدار - نسخه سازمانی </p>
+                        <div class="box">
+                            <i class="fa fa-heart p-1 heart"></i>
+                            <div class="box-align">
+                                <img class="head-bt" src="image/users3.png">
+                                <p class="head-text text-secondary mt-2">سامانه دیدار - نسخه سازمانی </p>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="box">
-                        <i class="fa fa-heart p-1 heart"></i>
-                        <div class="box-align">
-                            <img class="head-bt" src="image/meeting2.png">
-                            <p class="head-text text-secondary mt-2">سامانه دیدار - جامعه هدف </p>
+                        <div class="box">
+                            <i class="fa fa-heart p-1 heart"></i>
+                            <div class="box-align">
+                                <img class="head-bt" src="image/meeting2.png">
+                                <p class="head-text text-secondary mt-2">سامانه دیدار - جامعه هدف </p>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="box">
-                        <i class="fa fa-heart p-1 heart"></i>
-                        <div class="box-align">
-                            <img class="head-bt" src="image/destination2.png">
+                        <div class="box">
+                            <i class="fa fa-heart p-1 heart"></i>
+                            <div class="box-align">
+                                <img class="head-bt" src="image/destination2.png">
 
-                            <p class="head-text text-secondary mt-2">سفرهای استانی </p>
+                                <p class="head-text text-secondary mt-2">سفرهای استانی </p>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="box box-6">
-                        <i class="fa fa-heart p-1 heart"></i>
-                        <div class="box-align">
-                            <img class="head-bt" src="image/0.png">
+                        <div class="box box-6">
+                            <i class="fa fa-heart p-1 heart"></i>
+                            <div class="box-align">
+                                <img class="head-bt" src="image/0.png">
 
-                            <p class="head-text text-secondary mt-2">درخواست بازنشستگی جانبازان </p>
+                                <p class="head-text text-secondary mt-2">درخواست بازنشستگی جانبازان </p>
 
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -455,7 +454,25 @@
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/inner.js"></script>
 
+    <script>
+        $(document).ready(function () {
+            $(".input-btn1").on('click', function () {
+                $.ajax({
+                    type: 'POST',
+                    url: 'test.php',
+                    data: 'my-input',
+                    success: function () {
+                        alert("save your information");
+                    }
+                });
 
+
+            });
+
+
+        });
+
+    </script>
 
 </body>
 
