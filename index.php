@@ -160,9 +160,18 @@
                                     <div class="modal1-content">
                                         <span class="close1">&times;</span>
                                         <label for="name">Enter your name</label>
+<<<<<<< HEAD:index.php
                                         <br>
                                         <input type="text" class="mod-input" placeholder="search..." name="input-1" value="my-input">
                                         <button class="btn input-btn1" name="button-1" type="submit">send</button>
+=======
+                                        <form action="test.php" method="post" enctype="multipart/form-data">
+                                            <input type="text" class="mod-input" placeholder="search..." name="input-1">
+                                            <button class="btn input-btn1" name="button-1" type="submit">send
+
+                                            </button>
+                                        </form>
+>>>>>>> 3323fceb0220542cddab9cd3b53ed702ae65618e:index.html
                                     </div>
                                 </div>
 
@@ -181,10 +190,18 @@
                                         <span class="close2">&times;</span>
                                         <div>
                                             <label for="name">Enter your address</label>
+<<<<<<< HEAD:index.php
                                             <br>
                                             <input type="text" class="mod-input" placeholder="search..." name="input-1">
                                             <button class="btn input-btn1" name="button-1" type="submit">send</button>
 
+=======
+                                            <form action="input.php" method="get">
+                                                <input type="text" class="mod-input" placeholder="search..." name="input-1">
+                                                <button class="btn input-btn1" name="button-1" type="submit">send
+                                                </button>
+                                            </form>
+>>>>>>> 3323fceb0220542cddab9cd3b53ed702ae65618e:index.html
                                         </div>
                                     </div>
                                 </div>

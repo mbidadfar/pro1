@@ -182,14 +182,12 @@ a{
     
 }
 
-
 .nav1 {
     border-radius: 10px;
     direction: rtl;
     margin-left: .5em!important;
     margin-right: .5em!important;
     background-color: rgb(230, 228, 228);
-    
 }
 
 /* 6box-top */
@@ -201,7 +199,12 @@ a{
 }
 
 .countainer{
+<<<<<<< HEAD
     max-width: 1500px!important;
+=======
+    max-width: 1500px;
+   position: relative!important;
+>>>>>>> 3323fceb0220542cddab9cd3b53ed702ae65618e
 }
 
 .box-align{
@@ -235,6 +238,9 @@ a{
 
 .input-btn1{
     width: 50%!important;
+    border: 1px solid rgb(88, 88, 196);
+    border-radius: 10px;
+    background-color: rgb(88, 88, 196);
 }
 
 .btn-inp:hover{
@@ -313,7 +319,8 @@ a{
     margin-left: 2.5px;
     margin-right: 2.5px;
     margin-bottom: .5em;
-    padding-top: 12px;
+    padding-top: 0.1em;
+    padding-right: .5em;
     
 }
 
@@ -377,10 +384,6 @@ a{
 
 .side-btn{
     border: none;
-}
-
-.box-inner{
-    padding-right: 1em;
 }
 
 .mod{
@@ -474,10 +477,6 @@ a{
           display: inline-block;
       }
 
-
-
-
-
       .page{
           width: 100%;
           padding: 0;
@@ -528,11 +527,8 @@ a{
         direction: rtl;
     }
     .box-inner{
-        background-color: white;
-        border: 1px solid rgb(197, 196, 196);
-        border-radius: 15px;
-        width: 28vw!important;
-        height: 4.6em;
+       
+        width: 100%!important;
         margin-left: 2.5px;
         margin-right: 1px;
         margin-bottom: .5em;
@@ -628,7 +624,7 @@ a{
         margin-left: 2.5px;
         margin-right: 2.5px;
         margin-bottom: .5em;
-        padding-top: 12px;
+        padding-top: .1em;
         
     }
 }
