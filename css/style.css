@@ -201,8 +201,8 @@ a{
     justify-content: center;
 }
 
-.services{
-    
+.countainer{
+    max-width: 1500px!important;
 }
 
 .box-align{
@@ -367,8 +367,6 @@ a{
     color: white;    
 }
 
-
-
 .mybtn-1{
     background-color: white;
     border: none;
@@ -415,7 +413,7 @@ a{
   
   .close1 {
     color: #aaa;
-    float: right;
+    float: left;
     font-size: 28px;
     font-weight: bold;
   }
@@ -454,7 +452,7 @@ a{
   
   .close2 {
     color: #aaa;
-    float: right;
+    float: left;
     font-size: 28px;
     font-weight: bold;
   }
