@@ -14,7 +14,12 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <div class="sticky-top myNav dir navbar pt-2">
+=======
+    <div class="sticky-top myNav dir navbar pt-2 px-2 row">
+    <nav class="nav-icon container">
+>>>>>>> e18af5f7d4b17ccbf923d176f8cb3b97ed9155e0
             <div class="d-flex logo1 dir align-items-center px-3">
 
                 <button class="side-collapse">
@@ -158,9 +163,24 @@
                                     <div class="modal1-content">
                                         <span class="close1">&times;</span>
                                         <label for="name">Enter your name</label>
+<<<<<<< HEAD
                                         <br>
                                         <input type="text" class="mod-input" placeholder="search..." name="input-1" value="my-input">
                                         <button class="btn input-btn1" name="button-1" type="submit">send</button>
+=======
+<<<<<<< HEAD:index.php
+                                        <br>
+                                        <input type="text" class="mod-input" placeholder="search..." name="input-1" value="my-input">
+                                        <button class="btn input-btn1" name="button-1" type="submit">send</button>
+=======
+                                        <form action="test.php" method="post" enctype="multipart/form-data">
+                                            <input type="text" class="mod-input" placeholder="search..." name="input-1">
+                                            <button class="btn input-btn1" name="button-1" type="submit">send
+
+                                            </button>
+                                        </form>
+>>>>>>> 3323fceb0220542cddab9cd3b53ed702ae65618e:index.html
+>>>>>>> e18af5f7d4b17ccbf923d176f8cb3b97ed9155e0
                                     </div>
                                 </div>
 
@@ -179,10 +199,24 @@
                                         <span class="close2">&times;</span>
                                         <div>
                                             <label for="name">Enter your address</label>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:index.php
+>>>>>>> e18af5f7d4b17ccbf923d176f8cb3b97ed9155e0
                                             <br>
                                             <input type="text" class="mod-input" placeholder="search..." name="input-1">
                                             <button class="btn input-btn1" name="button-1" type="submit">send</button>
 
+<<<<<<< HEAD
+=======
+=======
+                                            <form action="input.php" method="get">
+                                                <input type="text" class="mod-input" placeholder="search..." name="input-1">
+                                                <button class="btn input-btn1" name="button-1" type="submit">send
+                                                </button>
+                                            </form>
+>>>>>>> 3323fceb0220542cddab9cd3b53ed702ae65618e:index.html
+>>>>>>> e18af5f7d4b17ccbf923d176f8cb3b97ed9155e0
                                         </div>
                                     </div>
                                 </div>
