@@ -6,7 +6,7 @@
 
 *{
     font-family: ' IRANSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;';
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
 li{
@@ -30,17 +30,32 @@ a{
 .myNav {
     background-image: linear-gradient(to bottom, rgb(86, 18, 150), rgb(101, 32, 133));
     height: 3.4em;
-    
 }
+
+.myNav.dark-mode {
+    background-image: linear-gradient(to bottom, rgb(139, 133, 133), rgb(160, 160, 153));
+    height: 3.4em;
+  }
 
 .btn1{
     width: 1em!important;
+}
+
+.bg-light{
+    border: none;           
+    cursor: pointer;        
+    height: 2em;           
+    padding-left: 2em;   
 }
 
 .text {
     color: white;
     direction: rtl;
     font-size: .7em;
+}
+
+.text.dark-mode{
+    color: rgb(255, 255, 255);
 }
 
 .profile {
@@ -52,6 +67,11 @@ a{
     border-radius: 5px;
     color: rgb(243, 237, 237);
     font-size: 1.5em;
+}
+
+.profile.dark-mode{
+    color: rgb(161, 159, 159);
+    background-color: rgb(83, 82, 82);
 }
 
 .profile:hover {
@@ -81,14 +101,17 @@ a{
     color: white;
 }
 
+.side-collapse.dark-mode{
+    color: rgb(20, 20, 20);
+}
+
 /* end navbar */
 
 /* sidebar */
 .sidebar1{
-    width: 8%;
-    height: 100%;
+    width: 8em;
     padding-left: .8em;
-    }    
+}    
 
 .sidebar{
     padding-top: 20%;
@@ -103,6 +126,10 @@ a{
     margin-top: -15px!important;
 }
 
+.side-text.dark-mode{
+    color: rgb(22, 22, 22);
+}
+
 .side-item{
     margin-bottom: 1.5em;
     display: grid;
@@ -110,30 +137,31 @@ a{
 
 .side-item:hover{
     background-color: rgb(142, 157, 204);
-    width: 4em;
-    height: 2.5em;
-    align-items: center;
     border-radius: 20px;
 }
 
 .side-item1:hover{
     background-color: rgb(142, 157, 204);
-    width: 4em;
-    height: 2.5em;
-    align-items: center;
     border-radius: 20px;
 }
 
 .side-item1{
     background-color: rgb(230, 230, 230);
-   
     align-items: center;
     border-radius: 20px;
 }
 
+.side-item1.dark-mode{
+    background-color: rgba(129, 127, 127, 0.808);
+}
+
+.sidebar1.dark-mode{
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
 .sideimg{
-    width: 1.6em;
-    height: 1.9em;
+    width: 2rem;
+    height: 2.2rem;
 }
 
 /* end sidebar */
@@ -141,7 +169,7 @@ a{
 /* main */
 
 .page{
-    width: 92%;
+    width: calc(100% - 8em);
 }
 
 .main{
@@ -150,10 +178,8 @@ a{
     margin-right: -20px!important;   
 }
 
-.input {
-    background-color: rgb(230, 228, 228);
-    border: 1px solid rgb(190, 189, 189);
-    border-radius: 8px;
+.main.dark-mode{
+    background-color: rgba(0, 0, 0, 0.808);
 }
 
 .input-nav{
@@ -163,6 +189,10 @@ a{
 .form-control{
     width: 10em!important;
     border-radius: 5px!important; 
+}
+
+.form-control.dark-mode{
+    background-color: rgb(194, 187, 187);
 }
 
 .input-btn{
@@ -180,9 +210,11 @@ a{
 .text1 {
     color: rgb(6, 148, 204);
     font-size: 90%;
-    
 }
 
+.text1.dark-mode{
+    color: rgb(216, 238, 247);
+}
 
 .nav1 {
     border-radius: 10px;
@@ -190,7 +222,10 @@ a{
     margin-left: .5em!important;
     margin-right: .5em!important;
     background-color: rgb(230, 228, 228);
-    
+}
+
+.nav1.dark-mode{
+    background-color: rgb(0, 0, 0);
 }
 
 /* 6box-top */
@@ -198,21 +233,16 @@ a{
     margin-left: 0!important;
     margin-right: 1em!important;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
-.services{
-    
+.countainer{
+    max-width: 1500px!important;
 }
 
 .box-align{
     text-align: center;
     
-}
-
-
-.btn-background {
-    color: rgb(46, 46, 212);
 }
 
 .mod:hover,
@@ -225,9 +255,15 @@ a{
     background-color: white;
     border: 1px solid rgb(190, 189, 189);
     border-radius: 25px;
-    width: calc(calc(100% / 6) - 16px)!important;
+    width: calc(calc(100% / 6) - 1em)!important;
+    height: auto;
     margin-left: .5em;
     margin-right: .5em;
+}
+
+.box.dark-mode{
+    background-color: rgb(233, 230, 230);
+    border: 1px solid rgb(80, 80, 80);
 }
 
 .mod-input{
@@ -236,6 +272,7 @@ a{
 
 .input-btn1{
     width: 50%!important;
+    margin-left: 1em!important;
 }
 
 .btn-inp:hover{
@@ -252,14 +289,13 @@ a{
     height: 4.5em;
 }
 
-
-.box-6{
-    background-color: rgb(230, 228, 228);
-}
-
 .text0 {
     color: rgb(6, 148, 204);
     font-size: .8rem!important;
+}
+
+.text0.dark-mode{
+    color: rgb(255, 255, 255);
 }
 
 .nav-icon1{
@@ -267,6 +303,10 @@ a{
     justify-content: space-between;
     padding-left: 1em;
     padding-right: 1em;
+}
+
+.icon-place{
+    align-items: self-end!important;
 }
 
 .row-card{
@@ -281,8 +321,14 @@ a{
     width: 7em;
     height: 2em;
     margin-top: .7em;
-    color: white;
+    color: white!important;
 }
+
+.card-btn.dark-mode{
+    background-color: rgb(31, 32, 30);
+    color: rgb(214, 214, 214);
+}
+
 .card{
     background-color: rgb(230, 228, 228);
     border: none;
@@ -293,6 +339,19 @@ a{
     padding-left: 3px!important;
     padding-right: 3px!important;
     margin-bottom: 1em;
+}
+
+.card.dark-mode{
+    background-color: rgb(108, 108, 109);
+
+}
+
+.text-grey{
+    color: #aaa;
+}
+
+.text-grey.dark-mode{
+    color: rgb(20, 20, 20);
 }
 
 .card-body{
@@ -311,21 +370,38 @@ a{
     border-radius: 15px;
     width: 100%!important;
     height: 4.6em;
-    margin-left: 2.5px;
+    margin-left: -.5px;
     margin-right: 2.5px;
     margin-bottom: .5em;
     padding-top: 12px;
-    
+    padding-right: 1em;
+}
+
+.box-inner.dark-mode{
+    background-color: rgb(233, 230, 230);
+    border: 1px solid rgb(134, 134, 134);
 }
 
 .heart{
     color: rgb(190, 189, 189);
 }
 
+.heart.dark-mode{
+    color: rgb(255, 255, 255);
+}
+
+.display1{
+    margin-top: -1em;
+}
 
 .display{
-    width: 2em;
-    height: 2.2em;
+    width: 2.5em;
+    height: 2.8em;
+    
+}
+
+.place-j-icon{
+    align-items: flex-end;
 }
 
 .heart:hover{
@@ -357,38 +433,22 @@ a{
     height: 6em
 }
 
-.act{
-    background-color: rgb(221, 214, 214);
-    border: none;
-}
-
 .card-btn:hover{
     background-color: rgb(7, 7, 85);
     color: white;    
-}
-
-
-
-.mybtn-1{
-    background-color: white;
-    border: none;
-}
-.mybtn-2{
-    background-color: rgb(230, 228, 228);
-    border: none;
 }
 
 .side-btn{
     border: none;
 }
 
-.box-inner{
-    padding-right: 1em;
-}
-
 .mod{
     background-color: white;
     border: none;
+}
+
+.mod.dark-mode{
+    background-color: rgb(233, 230, 230);
 }
 
 /*  Modal1 */
@@ -401,8 +461,7 @@ a{
     width: 100%;
     height: 100%; 
     overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.8);
   }
   
   .modal1-content {
@@ -415,7 +474,7 @@ a{
   
   .close1 {
     color: #aaa;
-    float: right;
+    float: left;
     font-size: 28px;
     font-weight: bold;
   }
@@ -429,57 +488,34 @@ a{
 
   /* end modal1 */
 
-  /*  Modal2 */
-  
-.modal2 {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4);
-  }
-  
-  .modal2-content {
-    background-color: #fefefe;
-    margin: 15% auto; 
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; 
-  }
-  
-  .close2 {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close2:hover,
-  .close2:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  } 
+  @media (max-width:1200.98px){
+    .box{
+        width: calc(100% / 5)!important;
+        margin-bottom: .5em;
+    }
 
-  /* end modal2 */
+    .row1{
+        direction: rtl;
+    }
+  }
+  
 
   @media (max-width:991.98px){
       .sidebar1{
           display: none;
       }
 
+      .heart-display{
+        display: none!important;
+      }
+
       .side-collapse{
           display: inline-block;
       }
 
-
-
-
+      .display1{
+        margin-top: 0em!important;
+    }
 
       .page{
           width: 100%;
@@ -497,9 +533,13 @@ a{
 
 
     .box{
-        width: calc(calc(100% / 3) - 30px)!important;
+        width: calc(calc(100% / 3) - 1em)!important;
         height: 9em;
         margin-top: 1%;
+    }
+
+    .row1{
+        margin-right: 3em!important;
     }
 
     .row-card{
@@ -528,8 +568,8 @@ a{
         padding-left: 1em!important; 
         padding-right: 1em!important;
         border-radius: 20px!important;
-        direction: rtl;
     }
+    
     .box-inner{
         background-color: white;
         border: 1px solid rgb(197, 196, 196);
@@ -554,10 +594,6 @@ a{
     
     .page{
         width: 100%;
-    }
-
-    .row1{
-        margin-right: 3%!important;
     }
 
     .row2{
@@ -642,9 +678,13 @@ a{
     }
 
     .box{
-        width: calc(calc(100% / 2) - 60px)!important;
+        width: calc(calc(100% / 2) - 1em)!important;
         height: 9em;
         margin-top: 1%;
+    }
+
+    .row1{
+        margin-right: 3em!important;
     }
 
     .card-body{
@@ -674,10 +714,15 @@ a{
 
 @media (max-width:360.98px){
     .box{
-        width: calc(100% - 60px)!important;
+        width: calc(100% - 1em)!important;
         margin-top: 1em;
         margin-right: 1em;
         
+    }
+
+    .row1{
+        margin-right: 2em!important;
+        margin-left: 1em!important;
     }
 
     .row-card{
@@ -695,11 +740,14 @@ a{
     
 }
 
+@media (max-width:318.98px){
+    .top-left{
+        display: none!important;
+    }
+}
+
 @media (max-width:298.98px){
 
-    .top-left{
-        width: 100;        
-    }
 
     .myNav{
         direction: rtl;
@@ -713,6 +761,3 @@ a{
         display: none;
     }
 }
-
-
-

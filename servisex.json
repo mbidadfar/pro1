@@ -1,0 +1,16 @@
+{
+    "title":"خدمت جدید",
+    "lists":[
+        {
+            "title":"آموزش php",
+            "link":"https://www.php.net/",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png"
+        },
+        {
+            "title":"آموزش javacript",
+            "link":"https://www.javascript.com/",
+            "icon":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE4fk7ejxpQ96HLMk7DvkPHkZu0A5S8CWZXw&usqp=CAU"
+        }
+    ]
+}
+
