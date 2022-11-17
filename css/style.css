@@ -212,20 +212,26 @@ a{
     font-size: 90%;
 }
 
+<<<<<<< HEAD
 .text1.dark-mode{
     color: rgb(216, 238, 247);
 }
 
+=======
+>>>>>>> 8caffe7939b02a2fc269c3d178640b101e5684d9
 .nav1 {
     border-radius: 10px;
     direction: rtl;
     margin-left: .5em!important;
     margin-right: .5em!important;
     background-color: rgb(230, 228, 228);
+<<<<<<< HEAD
 }
 
 .nav1.dark-mode{
     background-color: rgb(0, 0, 0);
+=======
+>>>>>>> 8caffe7939b02a2fc269c3d178640b101e5684d9
 }
 
 /* 6box-top */
@@ -237,7 +243,20 @@ a{
 }
 
 .countainer{
+<<<<<<< HEAD
     max-width: 1500px!important;
+=======
+<<<<<<< HEAD
+    max-width: 1500px!important;
+=======
+<<<<<<< HEAD
+    max-width: 1500px!important;
+=======
+    max-width: 1500px;
+   position: relative!important;
+>>>>>>> 3323fceb0220542cddab9cd3b53ed702ae65618e
+>>>>>>> e18af5f7d4b17ccbf923d176f8cb3b97ed9155e0
+>>>>>>> 8caffe7939b02a2fc269c3d178640b101e5684d9
 }
 
 .box-align{
@@ -272,7 +291,13 @@ a{
 
 .input-btn1{
     width: 50%!important;
+<<<<<<< HEAD
     margin-left: 1em!important;
+=======
+    border: 1px solid rgb(88, 88, 196);
+    border-radius: 10px;
+    background-color: rgb(88, 88, 196);
+>>>>>>> 8caffe7939b02a2fc269c3d178640b101e5684d9
 }
 
 .btn-inp:hover{
@@ -373,6 +398,7 @@ a{
     margin-left: -.5px;
     margin-right: 2.5px;
     margin-bottom: .5em;
+<<<<<<< HEAD
     padding-top: 12px;
     padding-right: 1em;
 }
@@ -380,6 +406,11 @@ a{
 .box-inner.dark-mode{
     background-color: rgb(233, 230, 230);
     border: 1px solid rgb(134, 134, 134);
+=======
+    padding-top: 0.1em;
+    padding-right: .5em;
+    
+>>>>>>> 8caffe7939b02a2fc269c3d178640b101e5684d9
 }
 
 .heart{
@@ -438,6 +469,18 @@ a{
     color: white;    
 }
 
+<<<<<<< HEAD
+=======
+.mybtn-1{
+    background-color: white;
+    border: none;
+}
+.mybtn-2{
+    background-color: rgb(230, 228, 228);
+    border: none;
+}
+
+>>>>>>> 8caffe7939b02a2fc269c3d178640b101e5684d9
 .side-btn{
     border: none;
 }
@@ -488,11 +531,50 @@ a{
 
   /* end modal1 */
 
+<<<<<<< HEAD
   @media (max-width:1200.98px){
     .box{
         width: calc(100% / 5)!important;
         margin-bottom: .5em;
     }
+=======
+  /*  Modal2 */
+  
+.modal2 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal2-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+  }
+  
+  .close2 {
+    color: #aaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+>>>>>>> 8caffe7939b02a2fc269c3d178640b101e5684d9
 
     .row1{
         direction: rtl;
@@ -513,10 +595,13 @@ a{
           display: inline-block;
       }
 
+<<<<<<< HEAD
       .display1{
         margin-top: 0em!important;
     }
 
+=======
+>>>>>>> 8caffe7939b02a2fc269c3d178640b101e5684d9
       .page{
           width: 100%;
           padding: 0;
@@ -571,11 +656,8 @@ a{
     }
     
     .box-inner{
-        background-color: white;
-        border: 1px solid rgb(197, 196, 196);
-        border-radius: 15px;
-        width: 28vw!important;
-        height: 4.6em;
+       
+        width: 100%!important;
         margin-left: 2.5px;
         margin-right: 1px;
         margin-bottom: .5em;
@@ -667,7 +749,7 @@ a{
         margin-left: 2.5px;
         margin-right: 2.5px;
         margin-bottom: .5em;
-        padding-top: 12px;
+        padding-top: .1em;
         
     }
 }
@@ -678,7 +760,11 @@ a{
     }
 
     .box{
+<<<<<<< HEAD
         width: calc(calc(100% / 2) - 1em)!important;
+=======
+        width: calc(calc(100% / 2) - 20px)!important;
+>>>>>>> 8caffe7939b02a2fc269c3d178640b101e5684d9
         height: 9em;
         margin-top: 1%;
     }
@@ -714,7 +800,11 @@ a{
 
 @media (max-width:360.98px){
     .box{
+<<<<<<< HEAD
         width: calc(100% - 1em)!important;
+=======
+        width: calc(100% - 20px)!important;
+>>>>>>> 8caffe7939b02a2fc269c3d178640b101e5684d9
         margin-top: 1em;
         margin-right: 1em;
         
